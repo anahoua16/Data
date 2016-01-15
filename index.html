@@ -1,0 +1,31 @@
+<!doctype html>
+<!-- https://www.youtube.com/watch?v=cTmve_j2nzM -->
+<!-- http://demos.jquerymobile.com/1.4.5/ -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+
+    <link rel="stylesheet" href="css/jquery_mobile.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery_mobile.js"></script>
+</head>
+
+<body>
+
+    <div id="home" data-role="page">
+        <div  data-role="header"> 
+	       <h1>Page Title</h1> 
+        </div> 
+        <p> Home Page This is It</p>
+        <a href="#blog" data-transition="slide">blog</a>
+    </div>
+    
+    <div id="blog" data-role="page">
+        <p> This is a blog </p>
+        <a href="#home" data-transition="slide" data-direction="reverse" >Home</a>
+    </div>
+</body>
+</html>
